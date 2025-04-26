@@ -116,6 +116,25 @@ nav ul li a.active {
     max-width: 800px;
 }
 
+.video-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 30px;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -392,6 +411,10 @@ footer p {
 
     .series-details {
         grid-template-columns: 1fr;
+    }
+
+    .video-container {
+        margin-bottom: 20px;
     }
 }
 
