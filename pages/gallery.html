@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Adolescence Fan Page</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Additional styles for lightbox */
+        .lightbox {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        
+        .lightbox img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+        }
+        
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: white;
+            font-size: 3rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../assets/images/logo.png" alt="Adolescence Logo" class="logo-img">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="episodes.html">Episodes</a></li>
+                <li><a href="cast.html">Cast</a></li>
+                <li><a href="creators.html">Creators</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Gallery</h1>
+            <p>A collection of images from Adolescence. Click on an image to enlarge.</p>
+        </div>
+    </div>
+
+    <div class="page-content">
+        <div class="container">
+            <div class="gallery-categories">
+                <button class="gallery-filter active" data-filter="all">All</button>
+                <button class="gallery-filter" data-filter="stills">Episode Stills</button>
+                <button class="gallery-filter" data-filter="posters">Posters & Key Art</button>
+                <button class="gallery-filter" data-filter="behind">Behind the Scenes</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Posters & Key Art -->
+                <div class="gallery-item" data-category="posters">
+                    <img src="../assets/images/gallery/poster.webp" alt="Official Poster" loading="lazy">
+                </div>
+                
+                <div class="gallery-item" data-category="posters">
+                    <img src="../assets/images/gallery/key-art.webp" alt="Key Art" loading="lazy">
+                </div>
+                
+                <!-- Episode Stills -->
+                <div class="gallery-item" data-category="stills">
+                    <img src="../assets/images/gallery/interrogation.webp" alt="Interrogation Scene" loading="lazy">
+                </div>
+                
+                <div class="gallery-item" data-category="stills">
+                    <img src="../assets/images/gallery/jamie-closeup.webp" alt="Jamie Close-up" loading="lazy">
+                </div>
+                
+                <div class="gallery-item" data-category="stills">
+                    <img src="../assets/images/gallery/family-scene.webp" alt="Miller Family" loading="lazy">
+                </div>
+                
+                <div class="gallery-item" data-category="stills">
+                    <img src="../assets/images/gallery/detective.webp" alt="Detective Bascombe" loading="lazy">
+                </div>
+                
+                <div class="gallery-item" data-category="stills">
+                    <img src="../assets/images/gallery/therapy.webp" alt="Therapy Session" loading="lazy">
+                </div>
+                
+                <!-- Behind the Scenes -->
+                <div class="gallery-item" data-category="behind">
+                    <img src="../assets/images/gallery/cast-photo.webp" alt="Cast Red Carpet" loading="lazy">
+                </div>
+                
+                <div class="gallery-item" data-category="behind">
+                    <img src="../assets/images/gallery/director.webp" alt="Director on Set" loading="lazy">
+                </div>
+                
+                <div class="gallery-item" data-category="behind">
+                    <img src="../assets/images/gallery/filming.webp" alt="Filming Process" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.tiktok.com/tag/adolescencenetflix" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://twitter.com/search?q=%23AdolescenceNetflix" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/explore/tags/adolescencenetflix/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>This is a fan-made website. All content belongs to their respective owners.</p>
+            <p>© 2025 Adolescence Fan Page</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script>
+        // Gallery filtering functionality
+        document.addEventListener('DOMContentLoaded', () => {
+            const filterButtons = document.querySelectorAll('.gallery-filter');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    button.classList.add('active');
+                    
+                    const filterValue = button.getAttribute('data-filter');
+                    
+                    // Show/hide items based on filter
+                    galleryItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

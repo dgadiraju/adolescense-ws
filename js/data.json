@@ -1,0 +1,236 @@
+{
+    "series": {
+        "title": "Adolescence",
+        "genre": "Psychological crime-drama",
+        "format": "1 season · 4 episodes · limited series",
+        "releaseDate": "March 13, 2025",
+        "runtime": "50-65 min per episode",
+        "ageRating": "TV-MA (language, distressing themes)",
+        "synopsis": "A family's world is turned upside down when 13-year-old Jamie Miller is arrested for the murder of a classmate. As detectives search for answers, parents, police and a psychologist confront every parent's worst nightmare — in real time."
+    },
+    "episodes": [
+        {
+            "number": 1,
+            "title": "Episode 1",
+            "runtime": "65 min",
+            "description": "Police raid the Miller home; Jamie is arrested and insists on his innocence.",
+            "airDate": "March 13, 2025",
+            "image": "episode1.webp"
+        },
+        {
+            "number": 2,
+            "title": "Episode 2",
+            "runtime": "51 min",
+            "description": "Detectives comb the school for the murder weapon; Bascombe's son uncovers a lead.",
+            "airDate": "March 13, 2025",
+            "image": "episode2.webp"
+        },
+        {
+            "number": 3,
+            "title": "Episode 3",
+            "runtime": "52 min",
+            "description": "Jamie's first therapy session cracks open the truth about Katie.",
+            "airDate": "March 13, 2025",
+            "image": "episode3.webp"
+        },
+        {
+            "number": 4,
+            "title": "Episode 4",
+            "runtime": "60 min",
+            "description": "On Eddie's birthday the family unravels as new evidence surfaces.",
+            "airDate": "March 13, 2025",
+            "image": "episode4.webp"
+        }
+    ],
+    "cast": [
+        {
+            "actor": "Owen Cooper",
+            "character": "Jamie Miller",
+            "description": "13-year-old accused of murder; quiet and volatile.",
+            "image": "owen-cooper.jpg"
+        },
+        {
+            "actor": "Stephen Graham",
+            "character": "Eddie Miller",
+            "description": "Jamie's father, desperately protective, co-creator of the show.",
+            "image": "stephen-graham.jpg"
+        },
+        {
+            "actor": "Christine Tremarco",
+            "character": "Manda Miller",
+            "description": "Jamie's mother, fighting to hold the family together.",
+            "image": "christine-tremarco.jpg"
+        },
+        {
+            "actor": "Ashley Walters",
+            "character": "DI Luke Bascombe",
+            "description": "Lead detective; pragmatic but empathetic.",
+            "image": "ashley-walters.jpg"
+        },
+        {
+            "actor": "Faye Marsay",
+            "character": "DS Misha Frank",
+            "description": "Bascombe's partner, sharp and analytical.",
+            "image": "faye-marsay.jpg"
+        },
+        {
+            "actor": "Erin Doherty",
+            "character": "Briony Ariston",
+            "description": "Court-appointed child psychologist.",
+            "image": "erin-doherty.jpg"
+        },
+        {
+            "actor": "Amélie Pease",
+            "character": "Lisa Miller",
+            "description": "Jamie's younger sister.",
+            "image": "amelie-pease.jpg"
+        }
+    ],
+    "creators": [
+        {
+            "name": "Stephen Graham",
+            "role": "Creator, Writer, Executive Producer",
+            "description": "Stephen Graham not only stars as Eddie Miller but also co-created and executive produced the series, bringing his vision to life.",
+            "image": "stephen-graham.jpg"
+        },
+        {
+            "name": "Jack Thorne",
+            "role": "Creator, Writer, Executive Producer",
+            "description": "Acclaimed writer Jack Thorne collaborated with Stephen Graham to create this powerful limited series.",
+            "image": "jack-thorne.jpg"
+        },
+        {
+            "name": "Philip Barantini",
+            "role": "Director (All Episodes)",
+            "description": "Known for his work on Boiling Point, Philip Barantini directed all four episodes of Adolescence, bringing a consistent vision to the limited series.",
+            "image": "philip-barantini.jpg"
+        }
+    ],
+    "production": {
+        "producer": "Jo Johnson",
+        "executiveProducers": [
+            "Mark Herbert",
+            "Emily Feller (Warp Films)",
+            "Graham & Hannah Walters (Matriarch Prods)",
+            "Jack Thorne (One Shoe Films)",
+            "Philip Barantini (It's All Made Up Prods)",
+            "Brad Pitt, Jeremy Kleiner, Dede Gardner, Nina Wolarsky (Plan B Ent.)"
+        ],
+        "productionCompanies": [
+            "It's All Made Up Productions",
+            "Matriarch Productions",
+            "Warp Films",
+            "Plan B Entertainment"
+        ]
+    },
+    "reviews": {
+        "rottenTomatoes": {
+            "score": "99%",
+            "source": "Tomatometer (100 critics)",
+            "quote": "Stylistically bold and beautifully acted… a searing viewing experience that scars."
+        },
+        "audience": {
+            "score": "73%",
+            "source": "Audience Score",
+            "quote": "Challenging but rewarding viewing experience."
+        },
+        "criticReviews": [
+            {
+                "source": "The Times (UK)",
+                "content": "CEO Ted Sarandos calls it 'artistically exceptional' and warns U.S. viewers to enable subtitles because of thick regional accents.",
+                "author": "Cultural Reporter"
+            },
+            {
+                "source": "Decider",
+                "content": "114 million views in less than 1 month; early talks for Season 2 underway. The show's intense examination of teen psychology has clearly resonated with viewers worldwide.",
+                "author": "Entertainment Analyst"
+            },
+            {
+                "source": "The Sun",
+                "content": "Achieved a rare 100% RT score on opening weekend; hailed as 'the best British thriller since Baby Reindeer.' Graham's performance as a father in crisis is nothing short of extraordinary.",
+                "author": "TV Critic"
+            },
+            {
+                "source": "The Guardian",
+                "content": "A masterclass in tension and character development. Owen Cooper's portrayal of Jamie Miller will be remembered as one of the most nuanced teen performances in recent memory.",
+                "author": "Television Editor"
+            },
+            {
+                "source": "Variety",
+                "content": "Barantini's direction creates a claustrophobic atmosphere that perfectly complements the narrative. Each frame is meticulously crafted to enhance the emotional impact.",
+                "author": "Senior Critic"
+            }
+        ]
+    },
+    "socialMedia": {
+        "netflix": "https://www.netflix.com/Adolescence",
+        "hashtag": "#AdolescenceNetflix",
+        "stats": {
+            "twitter": "450K+ Tweets",
+            "tiktok": "1.2B+ Views",
+            "netflixRanking": "#1 Position on Netflix Global Top 10 for 4 consecutive weeks"
+        }
+    },
+    "gallery": {
+        "categories": [
+            {
+                "name": "Posters & Key Art",
+                "filter": "posters",
+                "items": [
+                    {
+                        "image": "poster.webp",
+                        "alt": "Official Poster"
+                    },
+                    {
+                        "image": "key-art.webp",
+                        "alt": "Key Art"
+                    }
+                ]
+            },
+            {
+                "name": "Episode Stills",
+                "filter": "stills",
+                "items": [
+                    {
+                        "image": "interrogation.webp",
+                        "alt": "Interrogation Scene"
+                    },
+                    {
+                        "image": "jamie-closeup.webp",
+                        "alt": "Jamie Close-up"
+                    },
+                    {
+                        "image": "family-scene.webp",
+                        "alt": "Miller Family"
+                    },
+                    {
+                        "image": "detective.webp",
+                        "alt": "Detective Bascombe"
+                    },
+                    {
+                        "image": "therapy.webp",
+                        "alt": "Therapy Session"
+                    }
+                ]
+            },
+            {
+                "name": "Behind the Scenes",
+                "filter": "behind",
+                "items": [
+                    {
+                        "image": "cast-photo.webp",
+                        "alt": "Cast Red Carpet"
+                    },
+                    {
+                        "image": "director.webp",
+                        "alt": "Director on Set"
+                    },
+                    {
+                        "image": "filming.webp",
+                        "alt": "Filming Process"
+                    }
+                ]
+            }
+        ]
+    }
+} 
